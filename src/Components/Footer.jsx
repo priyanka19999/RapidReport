@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-dark text-light py-4 mt-5">
       <div className="container text-center">
-        <h5 className="mb-3">Newz - Stay Updated with Latest News</h5>
+        <h5 className="mb-3">RapidReport - Stay Updated with Latest News</h5>
         
         {/* Navigation Links */}
         <div className="mb-3">
@@ -32,7 +32,7 @@ export function Footer() {
         </div>
 
         {/* Copyright */}
-        <p className="mb-0">&copy; {new Date().getFullYear()} Newz. All Rights Reserved.</p>
+        <p className="mb-0">&copy; {new Date().getFullYear()} RapidReport. All Rights Reserved.</p>
       </div>
     </footer>
   );
